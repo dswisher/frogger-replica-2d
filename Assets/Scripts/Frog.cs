@@ -7,22 +7,27 @@ public class Frog : MonoBehaviour
 
     void Update()
     {
+        var dx = 0;
+        var dy = 0;
+
         if (Input.GetKeyDown(KeyCode.D))
         {
-            rb.MovePosition(rb.position + Vector2.right);
+            dx = 1;
         }
         else if (Input.GetKeyDown(KeyCode.A))
         {
-            rb.MovePosition(rb.position + Vector2.left);
+            dx = -1;
         }
         else if (Input.GetKeyDown(KeyCode.W))
         {
-            rb.MovePosition(rb.position + Vector2.up);
+            dy = 1;
         }
         else if (Input.GetKeyDown(KeyCode.S))
         {
-            rb.MovePosition(rb.position + Vector2.down);
+            dy = -1;
         }
+
+        rb.position = new Vector2(Mathf.Clamp(rb.position.x + dx, -6, 6), Mathf.Clamp(rb.position.y + dy, -4, 4));
     }
 
 
