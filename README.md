@@ -15,7 +15,12 @@ and [github repo](https://github.com/Brackeys/Frogger-Replica).
 - Add logs that you have to jump on, with water that is a lose condition
 - Add variety to the levels
 - Keep a high score, ideally persisting it
-- Add sound effects
+- ~~Add sound effects~~
 - Add music
 - Switch to new UI system
+
+
+# Links
+
+- Sounds effects - [sfxr](https://sfxr.me/) - [pickupCoin](https://sfxr.me/#34T6Pm19cKop8XBvSBM9Fe6b5yDym91aipS4oNpJcA8dXiCtNwJX2Pi6qh4vjG8L3xVeipdUxxCjiiBb4jhM9AgA2d66TV73J6XEfKVheGx2GxLbNeZ56xt9V) - [hitHurt](https://sfxr.me/#11111CGBC2CXofgBV85u2fpkVTrdjwRPrYocsdYSGn4vHfHdJL3pPfgtW3DjwPzLsLCLdrMox5949fhNqQxXWGbf8Wq8URSXPcA7txNuA3P2VnroH4ST5J5M)
 
