@@ -10,6 +10,8 @@
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 
+.idea
+
 # Silly MACs
 .DS_Store
 
